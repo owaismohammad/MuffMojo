@@ -1,24 +1,27 @@
 {
-    "manifest_version": 3,
-    "name": "Muff-Mojo 🧁",
-    "version": "1.0",
-    "description": "Sprinkle Some Fun on Your Chats 🍩\n\tInteractive browser extension that expressive emojis to your typing experience. "
-,
-    "permissions": ["activeTab", "scripting"],
-    "host_permissions": ["https://web.whatsapp.com/"],
-    "action":{
-      "default_popup": "popup.html",
-      "default_logo": "muff64.png"
-    },
-    "icons": {
-    "512": "bgremoved.png"
-     
+  "manifest_version": 3,
+  "name": "Muff-Mojo 🧁",
+  "version": "1.0",
+  "description": "Sprinkle Some Fun on Your Chats 🍩\n\tInteractive browser extension that expressive emojis to your typing experience.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://web.whatsapp.com/*",
+    "https://www.instagram.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_logo": "muff64.png"
   },
-    "content_scripts": [
-      {
-        "matches": ["https://web.whatsapp.com/*"],
-        "js": ["content3.js"]
-      }
-    ]
-  }
-  
+  "icons": {
+    "512": "bgremoved.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*",
+        "https://www.instagram.com/*"
+      ],
+      "js": ["content4.js"]
+    }
+  ]
+}
