@@ -27,6 +27,7 @@ function detectTyping(messageContainer) {
 
     const emojiList = {
         // Popular emojis
+        hug:'🫂',
         tick:'✅',
         correct:'✅',
         wrong:'❌',
