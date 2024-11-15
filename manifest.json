@@ -3,7 +3,7 @@
   "name": "Muff-Mojo 🧁",
   "version": "1.0",
   "description": "Sprinkle Some Fun on Your Chats 🍩\n\tInteractive browser extension that add expressive emojis to your typing experience.",
-  "permissions": ["activeTab", "scripting"],
+ 
   "host_permissions": [
     "https://web.whatsapp.com/*",
     "https://www.instagram.com/*"
